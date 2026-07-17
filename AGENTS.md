@@ -25,6 +25,10 @@ in `Casks/`.
 - Fonts are casks, not formulae. Homebrew installs `font` artifacts into
   `~/Library/Fonts` on macOS and `${XDG_DATA_HOME:-~/.local/share}/fonts` on
   Linux.
+- GitHub-generated source archives retain a top-level directory such as
+  `<repository>-<version-or-commit>/`. Include that directory in every `font`
+  artifact path; Homebrew does not strip it when staging a cask. Release ZIPs
+  may have a different layout, so always inspect the archive.
 - Prefer tagged font releases with checksummed archives. When upstream has no
   tag, pin the cask to the full immutable commit archive. Homebrew currently
   classifies commit-hash cask versions as unversioned and requires
