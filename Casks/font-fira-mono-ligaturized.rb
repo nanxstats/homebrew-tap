@@ -8,9 +8,9 @@ cask "font-fira-mono-ligaturized" do
   desc "Fira Mono with opinionated Fira Code ligatures and stylistic sets"
   homepage "https://github.com/nanxstats/fira-mono-ligaturized"
 
-  font "fonts/LigaFiraMono-Bold.otf"
-  font "fonts/LigaFiraMono-Medium.otf"
-  font "fonts/LigaFiraMono-Regular.otf"
+  font "fira-mono-ligaturized-#{version}/fonts/LigaFiraMono-Bold.otf"
+  font "fira-mono-ligaturized-#{version}/fonts/LigaFiraMono-Medium.otf"
+  font "fira-mono-ligaturized-#{version}/fonts/LigaFiraMono-Regular.otf"
 
   # No zap stanza required
 end

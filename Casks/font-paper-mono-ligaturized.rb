@@ -8,14 +8,14 @@ cask "font-paper-mono-ligaturized" do
   desc "Paper Mono with Fira Code ligatures and a default slashed zero"
   homepage "https://github.com/nanxstats/paper-mono-ligaturized"
 
-  font "fonts/LigaPaperMono-Bold.otf"
-  font "fonts/LigaPaperMono-ExtraBold.otf"
-  font "fonts/LigaPaperMono-ExtraLight.otf"
-  font "fonts/LigaPaperMono-Light.otf"
-  font "fonts/LigaPaperMono-Medium.otf"
-  font "fonts/LigaPaperMono-Regular.otf"
-  font "fonts/LigaPaperMono-SemiBold.otf"
-  font "fonts/LigaPaperMono-Thin.otf"
+  font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-Bold.otf"
+  font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-ExtraBold.otf"
+  font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-ExtraLight.otf"
+  font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-Light.otf"
+  font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-Medium.otf"
+  font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-Regular.otf"
+  font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-SemiBold.otf"
+  font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-Thin.otf"
 
   # No zap stanza required
 end

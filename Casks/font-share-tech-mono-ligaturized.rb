@@ -8,7 +8,7 @@ cask "font-share-tech-mono-ligaturized" do
   desc "Share Tech Mono with Fira Code ligatures"
   homepage "https://github.com/nanxstats/share-tech-mono-ligaturized"
 
-  font "fonts/LigaShareTechMono-Regular.ttf"
+  font "share-tech-mono-ligaturized-#{version}/fonts/LigaShareTechMono-Regular.ttf"
 
   # No zap stanza required
 end

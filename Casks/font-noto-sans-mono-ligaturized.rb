@@ -8,10 +8,10 @@ cask "font-noto-sans-mono-ligaturized" do
   desc "Noto Sans Mono with Fira Code ligatures"
   homepage "https://github.com/nanxstats/noto-sans-mono-ligaturized"
 
-  font "fonts/LigaNotoSansMono-Bold.otf"
-  font "fonts/LigaNotoSansMono-Light.otf"
-  font "fonts/LigaNotoSansMono-Medium.otf"
-  font "fonts/LigaNotoSansMono-Regular.otf"
+  font "noto-sans-mono-ligaturized-#{version}/fonts/LigaNotoSansMono-Bold.otf"
+  font "noto-sans-mono-ligaturized-#{version}/fonts/LigaNotoSansMono-Light.otf"
+  font "noto-sans-mono-ligaturized-#{version}/fonts/LigaNotoSansMono-Medium.otf"
+  font "noto-sans-mono-ligaturized-#{version}/fonts/LigaNotoSansMono-Regular.otf"
 
   # No zap stanza required
 end
