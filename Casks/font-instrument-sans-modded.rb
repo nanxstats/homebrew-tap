@@ -8,8 +8,8 @@ cask "font-instrument-sans-modded" do
   desc "Instrument Sans with modified uppercase R and lowercase t glyphs"
   homepage "https://github.com/nanxstats/instrument-sans-mod"
 
-  font "fonts/variable/InstrumentSans-Italic[wdth,wght].ttf"
-  font "fonts/variable/InstrumentSans[wdth,wght].ttf"
+  font "instrument-sans-mod-#{version}/fonts/variable/InstrumentSans-Italic[wdth,wght].ttf"
+  font "instrument-sans-mod-#{version}/fonts/variable/InstrumentSans[wdth,wght].ttf"
 
   # No zap stanza required
 end

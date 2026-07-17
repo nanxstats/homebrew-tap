@@ -7,12 +7,12 @@ cask "font-dm-mono-ligaturized" do
   desc "DM Mono with Fira Code ligatures"
   homepage "https://github.com/nanxstats/dm-mono-ligaturized"
 
-  font "fonts/LigaDMMono-Italic.ttf"
-  font "fonts/LigaDMMono-Light.ttf"
-  font "fonts/LigaDMMono-LightItalic.ttf"
-  font "fonts/LigaDMMono-Medium.ttf"
-  font "fonts/LigaDMMono-MediumItalic.ttf"
-  font "fonts/LigaDMMono-Regular.ttf"
+  font "dm-mono-ligaturized-#{version}/fonts/LigaDMMono-Italic.ttf"
+  font "dm-mono-ligaturized-#{version}/fonts/LigaDMMono-Light.ttf"
+  font "dm-mono-ligaturized-#{version}/fonts/LigaDMMono-LightItalic.ttf"
+  font "dm-mono-ligaturized-#{version}/fonts/LigaDMMono-Medium.ttf"
+  font "dm-mono-ligaturized-#{version}/fonts/LigaDMMono-MediumItalic.ttf"
+  font "dm-mono-ligaturized-#{version}/fonts/LigaDMMono-Regular.ttf"
 
   # No zap stanza required
 end
