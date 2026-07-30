@@ -1,8 +1,8 @@
 class Revdeprun < Formula
   desc "Reverse dependency checks for R with cloud-ready environment setup"
   homepage "https://nanx.me/revdeprun/"
-  url "https://static.crates.io/crates/revdeprun/revdeprun-2.2.3.crate"
-  sha256 "29bc2ad54fe5d54f3a229c49e42b32425ada0fbb1dd96932ce5efcd122246173"
+  url "https://static.crates.io/crates/revdeprun/revdeprun-2.3.0.crate"
+  sha256 "8e98872565593e39f24373ad46fba83211688e124b70d5dd825664dd9d4783b3"
   license "MIT"
   head "https://github.com/nanxstats/revdeprun.git", branch: "main"
 
