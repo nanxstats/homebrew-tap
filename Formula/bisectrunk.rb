@@ -1,8 +1,8 @@
 class Bisectrunk < Formula
   desc "Parallel, environment-aware, resumable Git bisection executor"
   homepage "https://nanx.me/bisectrunk/"
-  url "https://static.crates.io/crates/bisectrunk/bisectrunk-0.1.2.crate"
-  sha256 "53ce528d9fb45823db95e7cc0d235979bb76c61bcf4d578fc74c806847e32ed4"
+  url "https://static.crates.io/crates/bisectrunk/bisectrunk-0.1.3.crate"
+  sha256 "df9085e0065c0b3ee30c6e6e2af29b0430e7636e677af9a419a1a71ef0715fed"
   license "MIT"
   head "https://github.com/nanxstats/bisectrunk.git", branch: "main"
 
