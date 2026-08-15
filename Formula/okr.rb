@@ -7,7 +7,6 @@ class Okr < Formula
   head "https://github.com/nanxstats/okr.git", branch: "main"
 
   depends_on "rust" => :build
-  uses_from_macos "git"
 
   def install
     system "cargo", "install", *std_cargo_args

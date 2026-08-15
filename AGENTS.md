@@ -19,8 +19,8 @@ in `Casks/`.
   `https://static.crates.io/crates/<name>/<name>-<version>.crate`, retain their
   crates.io SHA-256 checksums, depend on `"rust" => :build`, and install with
   `cargo install`, `*std_cargo_args`. Do not depend on or invoke `rustup`.
-- `bisectrunk` needs Git at runtime and uses `uses_from_macos "git"` so Linux
-  receives Homebrew Git while macOS may use the system copy.
+- `bisectrunk` needs Git at runtime, but do not declare Git as a dependency;
+  Homebrew treats it as always available.
 - `revdeprun` is supported only on Linux and must keep `depends_on :linux`.
 - Fonts are casks, not formulae. Homebrew installs `font` artifacts into
   `~/Library/Fonts` on macOS and `${XDG_DATA_HOME:-~/.local/share}/fonts` on
