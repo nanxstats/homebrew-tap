@@ -15,7 +15,7 @@ in `Casks/`.
 - After changing a Python package version, URL, or checksum, run
   `brew update-python-resources nanxstats/tap/<formula>` and review all resource
   changes. Use the PyPI sdist, not a wheel, as the main formula URL.
-- Rust CLIs (`bisectrunk`, `revdeprun`) use the published source archives at
+- Rust CLIs (`bisectrunk`, `okr`, `revdeprun`) use the published source archives at
   `https://static.crates.io/crates/<name>/<name>-<version>.crate`, retain their
   crates.io SHA-256 checksums, depend on `"rust" => :build`, and install with
   `cargo install`, `*std_cargo_args`. Do not depend on or invoke `rustup`.
@@ -55,7 +55,7 @@ Before committing, run:
 ```sh
 brew style nanxstats/tap
 brew audit --strict nanxstats/tap/asciilint nanxstats/tap/pkglite \
-  nanxstats/tap/bisectrunk nanxstats/tap/revdeprun
+  nanxstats/tap/bisectrunk nanxstats/tap/okr nanxstats/tap/revdeprun
 brew test-bot --only-tap-syntax
 ```
 
