@@ -1,8 +1,8 @@
 class Okr < Formula
   desc "Reproducible R source context for coding agents"
   homepage "https://nanx.me/okr/"
-  url "https://static.crates.io/crates/okr/okr-0.1.7.crate"
-  sha256 "3b7b26e476dd75eeded61f2ddeb845222079ecffc4f4f375e96718470261db3a"
+  url "https://static.crates.io/crates/okr/okr-0.1.8.crate"
+  sha256 "2286694e6333d742a5003327ccaf61f001a34f09cfc13ecf7031da4068f1ea2a"
   license "MIT"
   head "https://github.com/nanxstats/okr.git", branch: "main"
 
