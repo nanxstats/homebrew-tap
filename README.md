@@ -17,6 +17,7 @@ brew install nanxstats/tap/asciilint
 brew install nanxstats/tap/pkglite
 brew install nanxstats/tap/bisectrunk
 brew install nanxstats/tap/okr
+brew install nanxstats/tap/promptjar
 brew install nanxstats/tap/revdeprun
 ```
 
@@ -59,13 +60,16 @@ brew audit --strict nanxstats/tap/asciilint \
   nanxstats/tap/pkglite \
   nanxstats/tap/bisectrunk \
   nanxstats/tap/okr \
+  nanxstats/tap/promptjar \
   nanxstats/tap/revdeprun
 
 brew install --build-from-source nanxstats/tap/asciilint
 brew install --build-from-source nanxstats/tap/pkglite
 brew install --build-from-source nanxstats/tap/bisectrunk
 brew install --build-from-source nanxstats/tap/okr
-brew test nanxstats/tap/asciilint nanxstats/tap/pkglite nanxstats/tap/bisectrunk nanxstats/tap/okr
+brew install --build-from-source nanxstats/tap/promptjar
+brew test nanxstats/tap/asciilint nanxstats/tap/pkglite \
+  nanxstats/tap/bisectrunk nanxstats/tap/okr nanxstats/tap/promptjar
 ```
 
 Run the `revdeprun` install and test commands on Linux:
