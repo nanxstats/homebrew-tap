@@ -3,8 +3,8 @@ class Asciilint < Formula
 
   desc "ASCII and character policy checks for text files"
   homepage "https://nanx.me/asciilint/"
-  url "https://files.pythonhosted.org/packages/69/21/eb73f32cbe2f31444b7c0987ff82e19eb73f86f31a5f1bba60f6634aded8/asciilint-0.3.0.tar.gz"
-  sha256 "73349e3ce1165ed1135f7c57e3e0db87d57e7dd9abc764bc778b9c2885fb7aa7"
+  url "https://files.pythonhosted.org/packages/0e/0b/dac9fa02c546cdd88a259eb8e9753a29963d50340c3955ed38c0f55725a9/asciilint-0.4.0.tar.gz"
+  sha256 "c6c21f8f0422ad8dc3e602f9b6a493cfa3fa1e52d0f269f0cbf9da30eb88873f"
   license "MIT"
   head "https://github.com/nanxstats/asciilint.git", branch: "main"
 
@@ -13,8 +13,8 @@ class Asciilint < Formula
   pypi_packages package_name: "asciilint"
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
-    sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
+    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
+    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
   end
 
   resource "pathspec" do
