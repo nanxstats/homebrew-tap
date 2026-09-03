@@ -13,7 +13,7 @@ class Promptjar < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/ptj --version")
-    assert_match "Usage", shell_output("#{bin}/ptj --help")
+    assert_match version.to_s, shell_output("#{bin}/pj --version")
+    assert_match "Usage", shell_output("#{bin}/pj --help")
   end
 end
