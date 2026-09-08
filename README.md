@@ -100,8 +100,11 @@ when an identical manual installation already exists.
 ### Continuous integration and bottles
 
 The generated `.github/workflows/tests.yml` workflow is relevant: pull requests
-run Homebrew's test bot on macOS (Apple Silicon and Intel) and Linux. This is the
-main cross-platform check before merging.
+run Homebrew's test bot on macOS (Apple Silicon) and Linux. This is the main
+cross-platform check before merging. Intel macOS is no longer tested in CI,
+following Homebrew's move to
+[Tier 3 support](https://docs.brew.sh/Support-Tiers#future-macos-support) and the
+end of new Intel bottle builds.
 
 The `.github/workflows/publish.yml` workflow is optional. It is only needed when
 publishing pre-built formula bottles after a pull request passes. Without
