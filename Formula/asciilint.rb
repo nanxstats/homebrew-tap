@@ -3,11 +3,12 @@ class Asciilint < Formula
 
   desc "ASCII and character policy checks for text files"
   homepage "https://nanx.me/asciilint/"
-  url "https://files.pythonhosted.org/packages/0e/0b/dac9fa02c546cdd88a259eb8e9753a29963d50340c3955ed38c0f55725a9/asciilint-0.4.0.tar.gz"
-  sha256 "c6c21f8f0422ad8dc3e602f9b6a493cfa3fa1e52d0f269f0cbf9da30eb88873f"
+  url "https://files.pythonhosted.org/packages/1e/a3/761fc3052c961b793ad70f470f529b66c102bc1a42d0b9563d6b7115e5b3/asciilint-0.4.1.tar.gz"
+  sha256 "598a0975a821f14d0d0760f8e18ac5e09866b7645c122d970fdb3ac3216f1095"
   license "MIT"
   head "https://github.com/nanxstats/asciilint.git", branch: "main"
 
+  depends_on "rust" => :build # for uv_build > maturin
   depends_on "python@3.14"
 
   pypi_packages package_name: "asciilint"

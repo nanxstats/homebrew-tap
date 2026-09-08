@@ -3,18 +3,19 @@ class Pkglite < Formula
 
   desc "Pack and unpack source projects into portable text files"
   homepage "https://pharmaverse.github.io/py-pkglite/"
-  url "https://files.pythonhosted.org/packages/dc/1e/79a1d067ca4b13b3afc47239d50a8c1a6edcbd2a71f49fa43be2f3f5681f/pkglite-0.1.10.tar.gz"
-  sha256 "048fda87eeebe2caaea2240a01266cf4bbe1364e11512186020df24ffb84f0aa"
+  url "https://files.pythonhosted.org/packages/24/01/42aa0b7bef4561ff8406030b9b8e55461d514f72d9bc6fb2b4ed1e65b38b/pkglite-0.1.11.tar.gz"
+  sha256 "020ca9df5c1a598106d70e4582316974f61dee4fe5898002176db9eb4ac3421a"
   license "MIT"
   head "https://github.com/pharmaverse/py-pkglite.git", branch: "main"
 
+  depends_on "rust" => :build # for uv_build > maturin
   depends_on "python@3.14"
 
   pypi_packages package_name: "pkglite"
 
   resource "annotated-doc" do
-    url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
-    sha256 "fbcda96e87e9c92ad167c2e53839e57503ecfda18804ea28102353485033faa4"
+    url "https://files.pythonhosted.org/packages/5a/8e/38aa427ed5402449e226975b649c5dc73ccadfefeb95e6aecb8f8ea4b6b6/annotated_doc-0.0.5.tar.gz"
+    sha256 "c7e58ce09192557605d8bbd92836d7e1d520ac9580096042c0bfd197efacf1bb"
   end
 
   resource "markdown-it-py" do
@@ -33,8 +34,8 @@ class Pkglite < Formula
   end
 
   resource "pygments" do
-    url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
-    sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
+    url "https://files.pythonhosted.org/packages/49/2e/ced460408999b33da6b31b0021b0f37d329e202d4169aeb164493778f25b/pygments-2.21.0.tar.gz"
+    sha256 "610ca751c9bc2492b38eb9a38a7fbc93edbbb2d7182edaf34e66ae493dee5c8c"
   end
 
   resource "rich" do
@@ -48,8 +49,8 @@ class Pkglite < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/37/78/fda3361b56efc27944f24225f6ecd13d96d6fcfe37bd0eb34e2f4c63f9fc/typer-0.27.0.tar.gz"
-    sha256 "629bd12ea5d13a17148125d9a264f949eb171fb3f120f9b04d85873cab054fa5"
+    url "https://files.pythonhosted.org/packages/16/f7/57713ba479fd405eb76de31404b2c744c289e336b2d999511ebf51e496f7/typer-0.27.2.tar.gz"
+    sha256 "269b7eb9d3c202ca84b4bc9618cb04ebb43d3d4d1e567e4c768607232c05f945"
   end
 
   def install
