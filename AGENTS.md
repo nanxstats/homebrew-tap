@@ -81,7 +81,7 @@ existing font is identical.
 ## CI and bottles
 
 - Keep `.github/workflows/tests.yml`: it provides pull-request checks on macOS
-  Apple Silicon, macOS Intel, and Linux.
+  Apple Silicon and Linux.
 - `.github/workflows/publish.yml` is only needed to publish formula bottles with
   `brew pr-pull` after a reviewed pull request passes. Font casks do not use
   bottles.
