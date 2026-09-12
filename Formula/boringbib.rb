@@ -1,5 +1,5 @@
 class Boringbib < Formula
-  desc "A boring BibTeX formatter"
+  desc "Boring BibTeX formatter"
   homepage "https://github.com/nanxstats/boringbib"
   url "https://static.crates.io/crates/boringbib/boringbib-0.1.0.crate"
   sha256 "3c5c0bfdd0aa48b5651469f25e2fca8c40bc23915492090e20d4c1cef13a01af"
