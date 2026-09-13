@@ -1,6 +1,6 @@
 cask "font-anthrosevka-mono" do
-  version "0.3.0"
-  sha256 "0ec9529e1bfc5b7be3d9191eb47cf44383aa3ac08dc51d01b3a2ade4a413ebd5"
+  version "0.3.1"
+  sha256 "a0351953018edb72a23270228dfa27edc8207da049e985a86ca8110410cc7a09"
 
   url "https://github.com/nanxstats/anthrosevka/releases/download/v#{version}/AnthrosevkaMono.zip"
   name "Anthrosevka Mono"
