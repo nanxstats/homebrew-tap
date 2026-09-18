@@ -1,8 +1,9 @@
 cask "font-twilio-sans-mono-minimal" do
-  version :latest
+  version "6bb29c96842f19a533401e6266fdfdd813dcf3e4"
   sha256 :no_check
 
-  url "https://github.com/twilio/twilio-sans-mono/raw/main/Twilio-Sans-Mono.zip"
+  # A commit pin is intentional: upstream has no tagged releases.
+  url "https://github.com/twilio/twilio-sans-mono/raw/6bb29c96842f19a533401e6266fdfdd813dcf3e4/Twilio-Sans-Mono.zip"
   name "Twilio Sans Mono Minimal"
   desc "Minimal set of Twilio Sans Mono typeface weights"
   homepage "https://github.com/twilio/twilio-sans-mono"
