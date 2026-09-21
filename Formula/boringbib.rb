@@ -1,8 +1,8 @@
 class Boringbib < Formula
   desc "Boring BibTeX formatter"
   homepage "https://github.com/nanxstats/boringbib"
-  url "https://static.crates.io/crates/boringbib/boringbib-0.1.0.crate"
-  sha256 "3c5c0bfdd0aa48b5651469f25e2fca8c40bc23915492090e20d4c1cef13a01af"
+  url "https://static.crates.io/crates/boringbib/boringbib-0.1.1.crate"
+  sha256 "58e8499a8a75c5be97568ccbb2eaeaed392c5c6baa76f187f203215063ee76ea"
   license "MIT"
   head "https://github.com/nanxstats/boringbib.git", branch: "main"
 
