@@ -1,6 +1,6 @@
 cask "font-iosevka-term-minimal" do
-  version "34.8.1"
-  sha256 "c9929ef8c27e5469906468e378e11d3023690ae9cd411a4af3de78190b901075"
+  version "34.9.0"
+  sha256 "1c0b8ac68ca210cc253c1833619d37ed2227d96fbdda0a36231375828b7bd6fb"
 
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTF-IosevkaTerm-#{version}.zip"
   name "Iosevka Term Minimal"
