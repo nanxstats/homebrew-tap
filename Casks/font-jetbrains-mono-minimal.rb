@@ -9,7 +9,7 @@ cask "font-jetbrains-mono-minimal" do
 
   livecheck do
     url :url
-    strategy :gitHub_latest
+    strategy :github_latest
   end
 
   font "fonts/ttf/JetBrainsMono-Bold.ttf"
