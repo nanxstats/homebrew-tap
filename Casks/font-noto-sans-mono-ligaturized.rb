@@ -13,5 +13,5 @@ cask "font-noto-sans-mono-ligaturized" do
   font "noto-sans-mono-ligaturized-#{version}/fonts/LigaNotoSansMono-Medium.otf"
   font "noto-sans-mono-ligaturized-#{version}/fonts/LigaNotoSansMono-Regular.otf"
 
-  # No zap stanza required
+  zap :not_required
 end

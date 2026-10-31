@@ -26,5 +26,5 @@ cask "font-anthrosevka-mono" do
   font "AnthrosevkaMono-Thin.ttf"
   font "AnthrosevkaMono-ThinItalic.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end

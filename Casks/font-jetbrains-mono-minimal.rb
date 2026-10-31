@@ -17,5 +17,5 @@ cask "font-jetbrains-mono-minimal" do
   font "fonts/ttf/JetBrainsMono-Italic.ttf"
   font "fonts/ttf/JetBrainsMono-Regular.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end

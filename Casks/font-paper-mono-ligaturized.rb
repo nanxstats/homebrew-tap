@@ -17,5 +17,5 @@ cask "font-paper-mono-ligaturized" do
   font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-SemiBold.otf"
   font "paper-mono-ligaturized-#{version}/fonts/LigaPaperMono-Thin.otf"
 
-  # No zap stanza required
+  zap :not_required
 end

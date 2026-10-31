@@ -14,5 +14,5 @@ cask "font-dm-mono-ligaturized" do
   font "dm-mono-ligaturized-#{version}/fonts/LigaDMMono-MediumItalic.ttf"
   font "dm-mono-ligaturized-#{version}/fonts/LigaDMMono-Regular.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end
