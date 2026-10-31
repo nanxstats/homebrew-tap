@@ -16,5 +16,5 @@ cask "font-ergonomic-mono" do
   font "ergonomic-mono-#{version}/fonts/ErgonomicMono-Regular.otf"
   font "ergonomic-mono-#{version}/fonts/ErgonomicMono-RegularItalic.otf"
 
-  # No zap stanza required
+  zap :not_required
 end

@@ -13,5 +13,5 @@ cask "font-courier-prime-sans-ligaturized" do
   font "courier-prime-sans-ligaturized-#{version}/fonts/LigaCourierPrimeSans-Italic.otf"
   font "courier-prime-sans-ligaturized-#{version}/fonts/LigaCourierPrimeSans-Regular.otf"
 
-  # No zap stanza required
+  zap :not_required
 end

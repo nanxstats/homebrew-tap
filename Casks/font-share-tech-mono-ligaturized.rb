@@ -10,5 +10,5 @@ cask "font-share-tech-mono-ligaturized" do
 
   font "share-tech-mono-ligaturized-#{version}/fonts/LigaShareTechMono-Regular.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end

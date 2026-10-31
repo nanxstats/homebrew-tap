@@ -17,5 +17,5 @@ cask "font-iosevka-term-minimal" do
   font "IosevkaTerm-Italic.ttf"
   font "IosevkaTerm-Regular.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end

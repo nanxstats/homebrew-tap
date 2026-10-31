@@ -12,5 +12,5 @@ cask "font-fira-mono-ligaturized" do
   font "fira-mono-ligaturized-#{version}/fonts/LigaFiraMono-Medium.otf"
   font "fira-mono-ligaturized-#{version}/fonts/LigaFiraMono-Regular.otf"
 
-  # No zap stanza required
+  zap :not_required
 end
