@@ -1,8 +1,8 @@
 cask "font-ergonomic-mono" do
-  version "db0dd125369ac98bb1dbd1109e59509ced64b3ea"
+  version "85ff4e2d19a33a437d20e4fd1c2d14720f902082"
   sha256 :no_check
 
-  url "https://github.com/nanxstats/ergonomic-mono/archive/db0dd125369ac98bb1dbd1109e59509ced64b3ea.tar.gz"
+  url "https://github.com/nanxstats/ergonomic-mono/archive/85ff4e2d19a33a437d20e4fd1c2d14720f902082.tar.gz"
   name "Ergonomic Mono"
   desc "Coding font with selectable glyph variants and programming ligatures"
   homepage "https://github.com/nanxstats/ergonomic-mono"
