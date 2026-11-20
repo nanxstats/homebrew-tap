@@ -1,9 +1,9 @@
 cask "font-paper-mono-ligaturized" do
-  version "efc339370ffb024d3882b36d0f6f778bc1f39794"
+  version "3ed77c8600707bc17edc42112a4b3b1c8c08fd65"
   sha256 :no_check
 
   # A commit archive is intentional: upstream has no tagged releases.
-  url "https://github.com/nanxstats/paper-mono-ligaturized/archive/efc339370ffb024d3882b36d0f6f778bc1f39794.tar.gz"
+  url "https://github.com/nanxstats/paper-mono-ligaturized/archive/3ed77c8600707bc17edc42112a4b3b1c8c08fd65.tar.gz"
   name "Paper Mono Ligaturized"
   desc "Paper Mono with Fira Code ligatures and a default slashed zero"
   homepage "https://github.com/nanxstats/paper-mono-ligaturized"
