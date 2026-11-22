@@ -40,6 +40,7 @@ brew install --cask nanxstats/tap/font-paper-mono-ligaturized
 brew install --cask nanxstats/tap/font-share-tech-mono-ligaturized
 brew install --cask nanxstats/tap/font-instrument-sans-modded
 
+brew install --cask nanxstats/tap/font-ergonomic-mono-minimal
 brew install --cask nanxstats/tap/font-iosevka-term-minimal
 brew install --cask nanxstats/tap/font-jetbrains-mono-minimal
 brew install --cask nanxstats/tap/font-twilio-sans-mono-minimal
