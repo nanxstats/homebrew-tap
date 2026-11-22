@@ -7,6 +7,8 @@ cask "font-ergonomic-mono" do
   desc "Coding font with selectable glyph variants and programming ligatures"
   homepage "https://github.com/nanxstats/ergonomic-mono"
 
+  conflicts_with cask: "font-ergonomic-mono-minimal"
+
   font "ergonomic-mono-#{version}/fonts/ErgonomicMono-Bold.otf"
   font "ergonomic-mono-#{version}/fonts/ErgonomicMono-BoldItalic.otf"
   font "ergonomic-mono-#{version}/fonts/ErgonomicMono-Light.otf"
