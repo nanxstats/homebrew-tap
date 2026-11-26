@@ -2,7 +2,6 @@ cask "font-automata-mono" do
   version "93a429a5de1ceeb81b639343c6e59368316bacef"
   sha256 :no_check
 
-  # A commit archive is intentional: upstream has no tagged releases.
   url "https://github.com/nanxstats/automata-mono/archive/93a429a5de1ceeb81b639343c6e59368316bacef.tar.gz"
   name "Automata Mono"
   desc "Roboto Mono with customized glyphs and programming ligatures"
