@@ -31,6 +31,7 @@ Rust is not a runtime dependency.
 
 ```sh
 brew install --cask nanxstats/tap/font-anthrosevka-mono
+brew install --cask nanxstats/tap/font-automata-mono
 brew install --cask nanxstats/tap/font-courier-prime-sans-ligaturized
 brew install --cask nanxstats/tap/font-dm-mono-ligaturized
 brew install --cask nanxstats/tap/font-ergonomic-mono
