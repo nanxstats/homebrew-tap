@@ -1,8 +1,8 @@
 cask "font-automata-mono" do
-  version "fd37e63e1a24856c883d5c97fad8ef50d1e37b55"
+  version "16db0f5d33509c60f3f41531fabd11855ac062cc"
   sha256 :no_check
 
-  url "https://github.com/nanxstats/automata-mono/archive/fd37e63e1a24856c883d5c97fad8ef50d1e37b55.tar.gz"
+  url "https://github.com/nanxstats/automata-mono/archive/16db0f5d33509c60f3f41531fabd11855ac062cc.tar.gz"
   name "Automata Mono"
   desc "Roboto Mono with customized glyphs and programming ligatures"
   homepage "https://github.com/nanxstats/automata-mono"
